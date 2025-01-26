@@ -29,7 +29,7 @@
 
 		<!-- Footer -->
 		<footer>
-			<p>© 2025 Chess App. All rights reserved.</p>
+			<p>© 2025 Andy Stubbs. All rights reserved.</p>
 		</footer>
 
 		<ToastContainer />

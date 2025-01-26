@@ -5,6 +5,10 @@ The **VueJS Chess App** is a web-based chess platform written in VueJS and is re
 I wrote to help me learn Vue.js. It's not complete but does have a working chess game and includes
 a sandbox of UI components I built for practice.
 
+## View it Online
+You can visit the website by visiting the following link:
+[VueJS Chess](https://vuejs-chess-6.vercel.app/)
+
 ### AI Bots
 - **Randy**: A beginner-friendly bot that makes completely random moves, ideal for kids or absolute 
 beginners.
