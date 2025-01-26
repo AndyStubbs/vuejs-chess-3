@@ -1,0 +1,96 @@
+/* main.css */
+
+* {
+	box-sizing: border-box;
+}
+
+document,
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-image: url(chess-bg.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	color: var(--fg-color-2);
+	margin: 0;
+	line-height: 1.6;
+	transition:
+		background-color 0.3s ease,
+		color 0.3s ease;
+}
+
+#app {
+	background-color: var(--bg-color-1);
+}
+
+header {
+	background-color: var(--bg-color-2);
+	color: var(--fg-color-2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-header);
+	margin: 0;
+}
+
+a,
+a:visited,
+a:active,
+a:link {
+	color: var(--link-color);
+}
+a:hover {
+	color: var(--link-hover-color);
+}
+
+input,
+textarea,
+select {
+	border: 1px solid var(--fg-color-1);
+	background-color: var(--input-bg-color-1) !important;
+	color: var(--fg-color-1);
+}
+
+input:disabled,
+textarea:disabled,
+select:disabled {
+	background-color: var(--btn-disabled-border-color-3);
+}
+
+select {
+	cursor: pointer;
+}
+
+h2 {
+	color: var(--fg-color-1);
+}
+
+::-webkit-scrollbar-corner {
+	background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-track {
+	background: var(--track-bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--thumb-bg-color);
+	border: 3px solid var(--thumb-border-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--thumb-hover-bg-color);
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	border: 3px solid var(--thumb-horizontal-bg-color);
+}

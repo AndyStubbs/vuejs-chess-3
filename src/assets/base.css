@@ -1,0 +1,127 @@
+/* colors.css */
+
+:root {
+	color-scheme: light dark;
+
+	/* Fonts */
+	--font-body: "Roboto", sans-serif;
+	--font-header: "Playfair Display", serif;
+	--font-time: "Orbitron", serif;
+
+	/* Light mode colors */
+	--bg-color-1: #f4f4f490;
+	--bg-color-2: #e8e8e8;
+	--bg-color-3: #ddd;
+	--bg-color-4: #eee;
+	--fg-color-1: #000000;
+	--fg-color-2: #333;
+	--fg-color-3: #fff;
+	--shadow-color-1: rgba(0, 0, 0, 0.1);
+	--shadow-color-2: rgba(0, 0, 0, 0.5);
+	--shadow-color-3: #0a3543;
+	--shadow-color-4: #0a3543aa;
+	--input-bg-color-1: #fff;
+	--border-color-1: #555;
+	--green-color-1: #4caf50;
+	--green-color-2: #145a16;
+	--light-overlay: rgba(255, 255, 255, 0.8);
+	--dark-overlay: rgba(0, 0, 0, 0.2);
+	--link-color: #2153c7;
+	--link-hover-color: #0e2d66;
+
+	/* Button 1 */
+	--btn-fg-color-1: #000000;
+	--btn-bg-color-1: #ccc;
+	--btn-border-color-1: #999;
+	--btn-hover-bg-color-1: #aaa;
+	--btn-disabled-bg-color-1: #bbb;
+
+	/* Button 2 */
+	--btn-fg-color-2: #000;
+	--btn-bg-color-2: #eee;
+	--btn-border-color-2: #363;
+	--btn-hover-bg-color-2: #ddd;
+	--btn-disabled-bg-color-2: #777;
+
+	/* Button 3 */
+	--btn-fg-color-3: #fff;
+	--btn-bg-color-3: #363;
+	--btn-border-color-3: #363;
+	--btn-hover-bg-color-3: #383;
+	--btn-disabled-bg-color-3: #777;
+
+	--active-item-color: #3b3;
+
+	/* Scrollbar Colors */
+	--track-bg-color: #ddd;
+	--thumb-bg-color: #ccc;
+	--thumb-border-color: #777;
+	--thumb-hover-bg-color: #bbb;
+	--thumb-horizontal-bg-color: #eee;
+
+	/* Status Colors */
+	--status-success-color: #383;
+	--status-error-color: #833;
+	--status-info-color: #c1c1c1;
+	--status-warn-color: #c17108;
+
+	/* Board Colors */
+	--board-color-1-light: #f0d9b5;
+	--board-color-1-dark: #b58863;
+}
+
+.dark {
+	/* Dark mode colors */
+	--bg-color-1: #1c1c1c90;
+	--bg-color-2: #222;
+	--bg-color-3: #333;
+	--bg-color-4: #555;
+	--fg-color-1: #fff;
+	--fg-color-2: #aaa;
+	--fg-color-3: #000;
+	--input-bg-color-1: #1e1e1e;
+	--shadow-color-1: rgba(255, 255, 255, 0.1);
+	--shadow-color-2: rgba(255, 255, 255, 0.25);
+	--shadow-color-3: #add8e6;
+	--shadow-color-4: #add8e6aa;
+	--border-color-1: #3f3f3f;
+	--green-color-1: #4caf50;
+	--bg-color-3: #2f2f2f;
+	--light-overlay: rgba(0, 0, 0, 0.8);
+	--dark-overlay: rgba(0, 0, 0, 0.2);
+	--track-bg-color: #1a1a1a;
+	--thumb-bg-color: #333;
+	--thumb-border-color: #555;
+	--thumb-hover-bg-color: #2a2a2a;
+	--thumb-horizontal-bg-color: #333;
+	--bg-color-4: #111;
+	--link-color: #91add4;
+	--link-hover-color: #6f88be;
+
+	/* Button 1 */
+	--btn-fg-color-1: #f4f4f4;
+	--btn-bg-color-1: #4a4a4a;
+	--btn-border-color-1: #777777;
+	--btn-hover-bg-color-1: #373636;
+	--btn-disabled-bg-color-1: #999;
+
+	/* Button 2 */
+	--btn-fg-color-2: #fff;
+	--btn-bg-color-2: #111;
+	--btn-border-color-2: #363;
+	--btn-hover-bg-color-2: #151515;
+	--btn-disabled-bg-color-2: #777;
+
+	/* Button 3 */
+	--btn-fg-color-3: #fff;
+	--btn-bg-color-3: #363;
+	--btn-border-color-3: #363;
+	--btn-hover-bg-color-3: #383;
+	--btn-disabled-bg-color-3: #777;
+
+	/* Status Colors */
+	--status-success-color: #383;
+	--status-error-color: #e33;
+	--status-info-color: #585958;
+	--status-warn-color: #c17108;
+}
